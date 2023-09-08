@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+span {
+    display: inline-block;
+    font-size: 3rem;
+    transition: all 0.3s cubic-bezier(.52,.88,.29,-1.57);
+}
+
+/* 
+div h1 span:hover{
+    transform: translatey(-30px);
+    cursor: pointer;
+    color: chocolate;
+} */
+@media (max-width: 768px){
+    span {
+        font-size: 1em;
+    }
+
+}
